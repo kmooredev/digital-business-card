@@ -1,0 +1,121 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* Bio Section */
+
+.bio-container {
+  background-color: rgb(22, 21, 21);
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.bio-image-container img {
+  width: 100vw;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.bio-container > h1 {
+  font-size: 30px;
+  letter-spacing: .2rem;
+}
+
+.bio-image-container {
+  width: 100%;
+  height: 500px;
+}
+
+.bio-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.btn-container button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-bottom: 5%;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+}
+
+.btn-container > button:first-of-type {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.btn-container button:last-of-type {
+  padding: 10px 15px;
+  color: white;
+  background-color: #0072b1;
+}
+
+/* About & Interests */
+  .details-container {
+    background-color: rgb(22, 21, 21);
+    border: 1px solid rgb(22, 21, 21);
+  }
+
+  .details-container:first-of-type {
+    margin-top: 3%;
+  }
+
+  .details-container h2 {
+    text-align: left;
+    padding: 1rem 2rem;
+    /* border: 1px solid red; */
+    margin: 0;
+  }
+
+  .details-container p {
+    /* border: 1px solid red; */
+    margin-top: 0;
+    text-align: left;
+    padding: 0 2rem 0 2rem;
+  }
+
+/* Footer */
+
+.footer {
+  background-color: rgb(8, 8, 8);
+  width: auto;
+  padding: 1rem 0;
+}
+
+.footer ul {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  
+}
+
+.footer li {
+  /* text-decoration: none; */
+  list-style: none;
+  margin: 0 5%;
+}
+
+.icon {
+  color: gray;
+}
+ .mail-icon {
+  margin-right: 5px;
+  line-height: normal;
+  color: rgb(82, 81, 81);
+ }
+
+ .linkedin-icon {
+  margin-right: 5px;
+  line-height: normal;
+ }
